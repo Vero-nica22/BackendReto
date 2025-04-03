@@ -16,6 +16,7 @@ C:\Users\mcver\Downloads\ExtraHoursManagement\ExtraHoursManagement\ExtraHours.Co
 C:\Users\mcver\Downloads\ExtraHoursManagement\ExtraHoursManagement\ExtraHours.Core\obj\Debug\net9.0\ExtraHours.Core.AssemblyInfoInputs.cache
 C:\Users\mcver\Downloads\ExtraHoursManagement\ExtraHoursManagement\ExtraHours.Core\obj\Debug\net9.0\ExtraHours.Core.AssemblyInfo.cs
 C:\Users\mcver\Downloads\ExtraHoursManagement\ExtraHoursManagement\ExtraHours.Core\obj\Debug\net9.0\ExtraHours.Core.csproj.CoreCompileInputs.cache
+C:\Users\mcver\Downloads\ExtraHoursManagement\ExtraHoursManagement\ExtraHours.Core\obj\Debug\net9.0\ExtraHours.Core.sourcelink.json
 C:\Users\mcver\Downloads\ExtraHoursManagement\ExtraHoursManagement\ExtraHours.Core\obj\Debug\net9.0\ExtraHours.Core.dll
 C:\Users\mcver\Downloads\ExtraHoursManagement\ExtraHoursManagement\ExtraHours.Core\obj\Debug\net9.0\refint\ExtraHours.Core.dll
 C:\Users\mcver\Downloads\ExtraHoursManagement\ExtraHoursManagement\ExtraHours.Core\obj\Debug\net9.0\ExtraHours.Core.pdb

@@ -3,8 +3,9 @@ using ExtraHours.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 
 
-namespace ExtraHours.Core.Repositories {
-    public class UserRepository: IUserRepository 
+namespace ExtraHours.Core.Repositories
+{
+    public class UserRepository : IUserRepository
     {
         private readonly AppDbContext _context;
 
@@ -34,13 +35,16 @@ namespace ExtraHours.Core.Repositories {
             await _context.SaveChangesAsync();
         }
 
-         public async Task DeleteUserAsync(int id)
-         {
+        public async Task DeleteUserAsync(int id)
+        {
             var user = await _context.Users.FindAsync(id);
-            if(user != null){
+            if (user != null)
+            {
                 _context.Users.Remove(user);
                 await _context.SaveChangesAsync();
-            }  
-         }
+            }
+        }
     }
 }
+
+

@@ -96,10 +96,10 @@
 /Users/alvaroperez/ExtraHoursManagement/ExtraHours.Test/obj/Debug/net9.0/ExtraHours.Test.genruntimeconfig.cache
 /Users/alvaroperez/ExtraHoursManagement/ExtraHours.Test/obj/Debug/net9.0/ref/ExtraHours.Test.dll
 C:\Users\mcver\Downloads\ExtraHoursManagement\ExtraHoursManagement\ExtraHours.Test\bin\Debug\net9.0\testhost.dll
+C:\Users\mcver\Downloads\ExtraHoursManagement\ExtraHoursManagement\ExtraHours.Test\bin\Debug\net9.0\testhost.exe
 C:\Users\mcver\Downloads\ExtraHoursManagement\ExtraHoursManagement\ExtraHours.Test\bin\Debug\net9.0\xunit.runner.visualstudio.testadapter.dll
 C:\Users\mcver\Downloads\ExtraHoursManagement\ExtraHoursManagement\ExtraHours.Test\bin\Debug\net9.0\xunit.runner.reporters.netcoreapp10.dll
 C:\Users\mcver\Downloads\ExtraHoursManagement\ExtraHoursManagement\ExtraHours.Test\bin\Debug\net9.0\xunit.runner.utility.netcoreapp10.dll
-C:\Users\mcver\Downloads\ExtraHoursManagement\ExtraHoursManagement\ExtraHours.Test\bin\Debug\net9.0\testhost.exe
 C:\Users\mcver\Downloads\ExtraHoursManagement\ExtraHoursManagement\ExtraHours.Test\bin\Debug\net9.0\ExtraHours.Test.deps.json
 C:\Users\mcver\Downloads\ExtraHoursManagement\ExtraHoursManagement\ExtraHours.Test\bin\Debug\net9.0\ExtraHours.Test.runtimeconfig.json
 C:\Users\mcver\Downloads\ExtraHoursManagement\ExtraHoursManagement\ExtraHours.Test\bin\Debug\net9.0\ExtraHours.Test.dll
@@ -187,6 +187,7 @@ C:\Users\mcver\Downloads\ExtraHoursManagement\ExtraHoursManagement\ExtraHours.Te
 C:\Users\mcver\Downloads\ExtraHoursManagement\ExtraHoursManagement\ExtraHours.Test\obj\Debug\net9.0\ExtraHours.Test.AssemblyInfoInputs.cache
 C:\Users\mcver\Downloads\ExtraHoursManagement\ExtraHoursManagement\ExtraHours.Test\obj\Debug\net9.0\ExtraHours.Test.AssemblyInfo.cs
 C:\Users\mcver\Downloads\ExtraHoursManagement\ExtraHoursManagement\ExtraHours.Test\obj\Debug\net9.0\ExtraHours.Test.csproj.CoreCompileInputs.cache
+C:\Users\mcver\Downloads\ExtraHoursManagement\ExtraHoursManagement\ExtraHours.Test\obj\Debug\net9.0\ExtraHours.Test.sourcelink.json
 C:\Users\mcver\Downloads\ExtraHoursManagement\ExtraHoursManagement\ExtraHours.Test\obj\Debug\net9.0\ExtraHou.A4738532.Up2Date
 C:\Users\mcver\Downloads\ExtraHoursManagement\ExtraHoursManagement\ExtraHours.Test\obj\Debug\net9.0\ExtraHours.Test.dll
 C:\Users\mcver\Downloads\ExtraHoursManagement\ExtraHoursManagement\ExtraHours.Test\obj\Debug\net9.0\refint\ExtraHours.Test.dll
