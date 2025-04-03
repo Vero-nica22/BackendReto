@@ -13,26 +13,24 @@ namespace ExtraHours.Core.Repositories
             _context = context;
         }
 
-        // Obtener todos los departamentos
+
         public async Task<IEnumerable<Department>> GetAllDepartmentsAsync()
         {
             return await _context.Departments.ToListAsync();
         }
 
-        // Obtener un departamento por ID
         public async Task<Department?> GetDepartmentByIdAsync(int id)
         {
             return await _context.Departments.FindAsync(id);
         }
 
-        // Agregar un nuevo departamento
+
         public async Task AddDepartmentAsync(Department department)
         {
             _context.Departments.Add(department);
             await _context.SaveChangesAsync();
         }
 
-        // Actualizar un departamento existente
         public async Task UpdateDepartmentAsync(Department department)
         {
             var existingDepartment = await _context.Departments.FindAsync(department.Id);
@@ -43,7 +41,7 @@ namespace ExtraHours.Core.Repositories
             }
         }
 
-        // Eliminar un departamento por ID
+
         public async Task DeleteDepartmentAsync(int id)
         {
             var department = await _context.Departments.FindAsync(id);

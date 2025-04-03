@@ -28,6 +28,7 @@ namespace ExtraHours.Infrastructure.Data
         public DbSet<UserDepartment> UserDepartments { get; set; }
         public DbSet<Request> Requests { get; set; }
         public DbSet<ExtraHour> ExtraHours { get; set; }
+
         public DbSet<TypeExtraHours> TypeExtraHours { get; set; }
         public DbSet<Status> Statuses { get; set; }
         public DbSet<Permission> Permissions { get; set; }
@@ -35,9 +36,9 @@ namespace ExtraHours.Infrastructure.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // Configura relaciones o restricciones adicionales aquí si es necesario.
+
             modelBuilder.Entity<User>()
-                .HasOne<Role>() // Relación con Role
+                .HasOne<Role>()
                 .WithMany()
                 .HasForeignKey(u => u.RoleId);
 

@@ -13,43 +13,43 @@ namespace ExtraHours.Core.Repositories
             _context = context;
         }
 
-        // Obtener todas las solicitudes
+
         public async Task<IEnumerable<Request>> GetAllRequestsAsync()
         {
             return await _context.Requests
-                .Include(r => r.User) // Incluye datos del usuario
-                .Include(r => r.ExtraHours) // Incluye datos de horas extras relacionadas
-                .Include(r => r.Status) // Incluye el estado actual
+                .Include(r => r.User) 
+                .Include(r => r.ExtraHours) 
+                .Include(r => r.Status) 
                 .ToListAsync();
         }
 
-        // Obtener una solicitud por su ID
+
         public async Task<Request?> GetRequestByIdAsync(int id)
         {
             return await _context.Requests
-                .Include(r => r.User) // Incluye datos del usuario
-                .Include(r => r.ExtraHours) // Incluye datos de horas extras relacionadas
-                .Include(r => r.Status) // Incluye el estado actual
+                .Include(r => r.User) 
+                .Include(r => r.ExtraHours)
+                .Include(r => r.Status) 
                 .FirstOrDefaultAsync(r => r.Id == id);
         }
 
-        // Obtener solicitudes de un usuario en particular
+
         public async Task<IEnumerable<Request>> GetRequestsByUserIdAsync(int userId)
         {
             return await _context.Requests
                 .Where(r => r.UserId == userId)
-                .Include(r => r.Status) // Incluye el estado actual
+                .Include(r => r.Status) 
                 .ToListAsync();
         }
 
-        // Agregar una nueva solicitud
+
         public async Task AddRequestAsync(Request request)
         {
             _context.Requests.Add(request);
             await _context.SaveChangesAsync();
         }
 
-        // Actualizar el estado de una solicitud
+
         public async Task UpdateRequestStatusAsync(int requestId, int statusId)
         {
             var request = await _context.Requests.FindAsync(requestId);
@@ -60,7 +60,7 @@ namespace ExtraHours.Core.Repositories
             }
         }
 
-        // Eliminar una solicitud
+
         public async Task DeleteRequestAsync(int id)
         {
             var request = await _context.Requests.FindAsync(id);

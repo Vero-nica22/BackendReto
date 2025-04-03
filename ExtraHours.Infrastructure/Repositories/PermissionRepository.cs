@@ -13,26 +13,26 @@ namespace ExtraHours.Core.Repositories
             _context = context;
         }
 
-        // Obtener todos los permisos
+
         public async Task<IEnumerable<Permission>> GetAllPermissionsAsync()
         {
             return await _context.Permissions.ToListAsync();
         }
 
-        // Obtener un permiso por ID
+
         public async Task<Permission?> GetPermissionByIdAsync(int id)
         {
             return await _context.Permissions.FindAsync(id);
         }
 
-        // Agregar un nuevo permiso
+
         public async Task AddPermissionAsync(Permission permission)
         {
             _context.Permissions.Add(permission);
             await _context.SaveChangesAsync();
         }
 
-        // Actualizar un permiso existente
+
         public async Task UpdatePermissionAsync(Permission permission)
         {
             var existingPermission = await _context.Permissions.FindAsync(permission.Id);
@@ -43,7 +43,7 @@ namespace ExtraHours.Core.Repositories
             }
         }
 
-        // Eliminar un permiso por ID
+
         public async Task DeletePermissionAsync(int id)
         {
             var permission = await _context.Permissions.FindAsync(id);
@@ -54,7 +54,7 @@ namespace ExtraHours.Core.Repositories
             }
         }
 
-        // Obtener permisos activos
+
         public async Task<IEnumerable<Permission>> GetActivePermissionsAsync()
         {
             return await _context.Permissions

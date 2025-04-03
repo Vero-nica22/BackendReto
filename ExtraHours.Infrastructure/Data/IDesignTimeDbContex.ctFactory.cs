@@ -9,10 +9,10 @@ namespace ExtraHours.Infrastructure.Data
     {
         public AppDbContext CreateDbContext(string[] args)
         {
-            // Ajusta la ruta base para apuntar al proyecto API
+
             var configuration = new ConfigurationBuilder()
                 .SetBasePath(Path.Combine(Directory.GetCurrentDirectory(), "..\\ExtraHours.API"))
-                .AddJsonFile("appsettings.json") // Archivo en el proyecto API
+                .AddJsonFile("appsettings.json")
                 .Build();
 
             var optionsBuilder = new DbContextOptionsBuilder<AppDbContext>();
